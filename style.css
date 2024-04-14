@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+body {
+  background-image: url(2166.jpg);
+  background-size: cover; 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 2%;
+}
+
+#container {
+  width: 500px;
+  height: 500px;
+  background: #312222;
+  margin: 90px auto;
+  
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-evenly;
+  font-family: 'Audiowide';
+  color: #E4FDE1;
+}
+
+ul li {
+  background: #213e5e;
+  width: 30%;
+  height: 150px;
+  border: 4px solid #028090;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+
+.empty {
+  background-color: #393a39;
+}
+
+button {
+  position: absolute;
+  top: 84%;
+  left:17%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  transform: translate(-50%,-50%);
+  padding: 13px;
+  border:3px solid rgb(156, 15, 237);
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #333232;
+  color: white;
+  font-size:16px;
+  font-family: Tahoma;
+  font-weight:bolder;
+}
+button:hover{
+background-color:#ffffff;
+color: rgb(0, 0, 0);
+font-weight:bolder;
+font-size: 18px;
+text-transform: uppercase;
+font-family: Georgia;
+}
+.kirubs{
+position: absolute;
+top: 84%;
+left:83%;
+width: 10%;
+display: flex;
+justify-content: center;
+transform: translate(-50%,-50%);
+padding: 13px;
+border:3px solid rgb(156, 15, 237);
+border-radius: 25px;
+cursor: pointer;
+background-color: #333232;
+color: white;
+font-size:16px;
+font-family: Tahoma;
+font-weight:bolder; 
+}
+.kirubs:hover{
+  color: black;
+  background-color: white;
+  /* border-color: black; */
+  text-transform: uppercase;
+  font-weight:bolder;
+  font-family: Georgia;
+  font-size: 18px;
+}
+.Head{
+  color: white;
+}
